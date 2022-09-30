@@ -5,6 +5,7 @@ const Beer = require('../../api/beers/beers.model');
 const initialBeers = [
     {
         name: "Paulaner",
+        image: "https://res.cloudinary.com/louregbri/image/upload/v1664541159/Beers/paulaner_lqcc3h.png",
         type: "Weissbier",
         description: "De apariencia turbia, se presenta en el vaso con un brillante color dorado aterciopelado, bajo una robusta corona de espuma que verdaderamente merece este nombre. Ya desde el comienzo de su preparación, de este clásico de la cerveza blanca de Múnich emana un ligero aroma a plátano. El conocedor aprecia toques de mango y de piña y ensalza el hermoso equilibrio de dulzor y amargor. Los amantes de la cerveza disfrutan del fino aroma de levadura y de su fabulosa suavidad burbujeante. Es la típica cerveza para tomar al aire libre, capaz de unir a personas de todo el mundo.",
         ingredients: "Agua, malta de trigo, malta de cebada, levadura, lúpulo",
@@ -14,6 +15,7 @@ const initialBeers = [
     },
     {
         name: "Maestra Dunkel",
+        image: "https://res.cloudinary.com/louregbri/image/upload/v1664541593/Beers/maestra-dunkel_bbiglz.webp",
         type: "Lager Oscura",
         description: "De color negro café, brillante y con una espuma densa muy consistente. Cerveza de carácter maltoso con predominio de las notas tostadas, a café y chocolate, tiene un ligero toque ahumado y complementa con notas mas complejas a frutas pasas y tabaco. En boca ofrece un cuerpo moderado y sedoso, con un amargor suave ligeramente persistente.",
         ingredients: "Agua, malta de cebada, lúpulo",

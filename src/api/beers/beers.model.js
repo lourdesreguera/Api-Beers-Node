@@ -3,6 +3,7 @@ const Schema = mongoose.Schema;
 const beersSchema = new Schema(
     {
         name: { type: String, required: true },
+        image: { type: String },
         type: { type: String, required: true },
         description: { type: String, required: true },
         ingredients: { type: String },
