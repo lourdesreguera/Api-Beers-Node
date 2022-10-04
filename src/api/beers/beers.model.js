@@ -6,9 +6,9 @@ const beersSchema = new Schema(
         image: { type: String },
         type: { type: String, required: true },
         description: { type: String, required: true },
-        ingredients: { type: String },
         country: { type: String, required: true },
         alcohol: { type: Number, required: true },
+        price: {type: Number},
         rating: { type: Array }
     },
     {
